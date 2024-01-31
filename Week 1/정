@@ -1,0 +1,150 @@
+Skip to content
+devryyeong
+/
+study-modern-javascript-deep-dive
+
+Type / to search
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Comparing changes
+Choose two branches to see what’s changed or to start a new pull request. If you need to, you can also  or learn more about diff comparisons.
+ 
+ 
+...
+ 
+ 
+  Able to merge. These branches can be automatically merged.
+Discuss and review the changes in this comparison with others. Learn about pull requests
+ 1 commit
+ 1 file changed
+ 1 contributor
+Commits on Feb 1, 2024
+Create 정미수.md
+
+@jongpilbest
+jongpilbest committed 1 minute ago
+Showing  with 110 additions and 0 deletions.
+ 110 changes: 110 additions & 0 deletions110  
+Week 1/정미수.md
+@@ -0,0 +1,110 @@
+
+
+# 12
+
+## 함수 리터럴
+
+```
+var f = function add(x, y) {
+  return x + y;
+};
+```
+
+함수 리터럴 === 함수 표현식
+일반 객체는 호출할 수 없지만, 함수는 호출가능 , 다른 언어와 달리 java script 에서는 함수는 객체이다. 
+이 객체를 식별할수 있는 식별자인 f로 호출한다고 생각하면된다. 
+
+
+## 함수 선언 
+
+```
+// 함수 선언문
+function add(x, y) {
+  return x + y;
+}
+// 함수 참조
+// console.dir은 console.log와는 달리 함수 객체의 프로퍼티까지 출력한다.
+// 단, Node.js 환경에서는 console.log와 같은 결과가 출력된다.
+console.dir(add); // ƒ add(x, y)
+// 함수 호출
+console.log(add(2, 5))
+```
+함수 선언문은 표현식이 아닌 문이다.
+문은 변수에 할당할수 없지만 자바 스크립트 엔진이 코드 문맥에 따라 함수 선언문 혹은 함수 리터럴 표현식으로 해석 해준다. 
+이렇게 문맥을 해석하는 것이 중요하다. .
+
+### 함수 선언문 / 함수를 가르키는 식별자 가 없을경우 어떻게 선언할까?
+
+ 자바스크립트는 함수 이름이 선언된 함수를 함수 이름으로 식별자를 생성하여 함수를 불러올수 있게 가능하게 만든다. 
+ 즉 자바 스크립트 엔진이 맘묵적으로 생성한 식별자 이다. 
+
+
+ ## 함수 생성 . 호이스팅
+ ```
+// 함수 참조
+console.dir(add); // ƒ add(x, y)
+console.dir(sub); // undefined
+// 함수 호출
+console.log(add(2, 5)); // 7
+console.log(sub(2, 5)); // TypeError: sub is not a function
+// 함수 선언문
+function add(x, y) {
+  return x + y;
+}
+// 함수 표현식
+var sub = function (x, y) {
+  return x - y;
+};
+```
+
+자바스크립트는 런타임 이전 엔진에 의해서 먼저 선언문이 실행되어 함수객체가 먼저 생성된다. 따라서 함수 이름과 동일한 식별자를 
+암묵적으로 이미 생성했기 때문에 코드를 한줄한줄 내린경우 코드 윗줄에서 존재하지 않는 함수 객체가 실행이 되낟. 
+즉 , 함수 선언문이 선두로 끌어 올려진 것 처럼 보이게 하는 자바스크립트 고유의 특징을 하뭇 호이스팅이라고 한다. 
+
+### 변수 호이스팅 ? 
+함수를  함수 표현식으로 선언한 경우는 sub (식별자) 를 초기화 하기때문에 undifined 가 나온다. 표면적으로는 함수 호이스팅이 발생하는것 같지만
+변수 호이스팅으로 인한 호출이라고 생각하면된다. 
+```
+var sub = function (x, y) {
+  return x - y;
+};
+```
+
+### 즉시 실행함수 
+
+```
+(function () {
+  var a = 3;
+  var b = 5;
+  return a * b;
+}());
+```
+함수를 즉시 실행시켜 동일한 이름의변수나 함수를 사용하는 것을 억제할수도 있다. 
+
+
+### 콜백 함수 
+
+```
+function repeat(n, f) {
+  for (var i = 0; i < n; i++) {
+    f(i); // i를 전달하면서 f를 호출
+  }
+}
+var logAll = function (i) {
+  console.log(i);
+};
+// 반복 호출할 함수를 인수로 전달한다.
+repeat(5, logAll);
+```
+함수 안의 함수 라고 생각하면된다. 
+함수안에 반복을 실행할 함수를 매개변수 로 선언해서 실행할 함수의 호출 시점을 결정할수 있다. 
+이런 경우 콜백함수라고 부르며 함수를 전달받은 함수는 고차 함수라고 불린다. 
+
+
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+Comparing devryyeong:main...jongpilbest:patch-1 · devryyeong/study-modern-javascript-deep-dive

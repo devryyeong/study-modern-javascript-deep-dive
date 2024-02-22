@@ -3,11 +3,12 @@
 <img src="./images/img.png" width="100%" alt="이미지" />
 
 ## 🐥 스터디 멤버
-| <img src="https://github.com/devryyeong.png" width="100" height="100"> | <img src="https://github.com/Loo-ke.png" width="100" height="100"> | <img src="https://github.com/jooheeok.png" width="100" height="100"> |
-|:------------------------------------------------------------------------:|:------------------------------------------------------------------:|:-------------------------------------------------------------------:|
-| [이나령](https://github.com/devryyeong)                                | [이종욱](https://github.com/Loo-ke)                               | [옥주희](https://github.com/jooheeok)                               |
-| <img src="https://github.com/jongpilbest.png" width="100" height="100"> | <img src="https://github.com/CHOIYEJUN.png" width="100" height="100"> | <img src="https://github.com/10o0o.png" width="100" height="100"> |
-| [정미수](https://github.com/jongpilbest)                                | [최예준](https://github.com/CHOIYEJUN)                            | [최재선](https://github.com/10o0o)                                |
+
+| <img src="https://github.com/devryyeong.png" width="100" height="100">  |  <img src="https://github.com/Loo-ke.png" width="100" height="100">   | <img src="https://github.com/jooheeok.png" width="100" height="100"> |
+| :---------------------------------------------------------------------: | :-------------------------------------------------------------------: | :------------------------------------------------------------------: |
+|                 [이나령](https://github.com/devryyeong)                 |                  [이종욱](https://github.com/Loo-ke)                  |                [옥주희](https://github.com/jooheeok)                 |
+| <img src="https://github.com/jongpilbest.png" width="100" height="100"> | <img src="https://github.com/CHOIYEJUN.png" width="100" height="100"> |  <img src="https://github.com/10o0o.png" width="100" height="100">   |
+|                [정미수](https://github.com/jongpilbest)                 |                [최예준](https://github.com/CHOIYEJUN)                 |                  [최재선](https://github.com/10o0o)                  |
 
 <br/>
 
@@ -27,6 +28,7 @@
 <br/>
 
 ## 🌱 스터디 전 준비 사항
+
 - 1 ~ 11, 16, 20, 43.3, 46을 제외한 모든 챕터를 정해진 일정에 읽기
 - 회차 폴더 안에 {이름}.md 파일 안에 공유할 내용 정리하기
   - 질문 / 토론 주제 / 인상 깊은 점 / 새로 알게된 개념 등 최소 1개 포함
@@ -58,31 +60,38 @@
 
 ## 🗓 스터디 일정
 
-| 회차 | 일시 | 목차 | 참여자 | 진행자 | 비고 |
-| --- | --- | --- | --- | --- | --- |
-| 0 | 24.01.25 21:30 | 스터디룰 정하기 | All | 이나령 |  |
-| 1 | 24.02.01 21:30 | 12,13,14,15 | 옥주희,최예준 외 | 이종욱 |  |
-| 2 | 24.02.15 | 17,18,19 | 이나령, 정미수, 최재선 |  |  |
-| 3 |  | 21,22,23 |  |  |  |
-| 4 |  | 24,25 |  |  |  |
-| 5 |  | 26,27,28 |  |  |  |
-| 6 |  | 29,30,31,32,33 |  |  |  |
-| 7 |  | 34,35,36,37 |  |  |  |
-| 8 |  | 38, 39 |  |  |  |
-| 9 |  | 40,41 |  |  |  |
-| 10 |  | 42,43,44 |  |  |  |
-| 11 |  | 45,47,48 |  |  |  |
-|  |  |  |  |  |  |
+| 회차 | 일시           | 목차            | 참여자                 | 진행자 | 비고 |
+| ---- | -------------- | --------------- | ---------------------- | ------ | ---- |
+| 0    | 24.01.25 21:30 | 스터디룰 정하기 | All                    | 이나령 |      |
+| 1    | 24.02.01 21:30 | 12,13,14,15     | 옥주희,최예준 외       | 이종욱 |      |
+| 2    | 24.02.15       | 17,18,19        | 이나령, 정미수, 최재선 |        |      |
+| 3    |                | 21,22,23        |                        |        |      |
+| 4    |                | 24,25           |                        |        |      |
+| 5    |                | 26,27,28        |                        |        |      |
+| 6    |                | 29,30,31,32,33  |                        |        |      |
+| 7    |                | 34,35,36,37     |                        |        |      |
+| 8    |                | 38, 39          |                        |        |      |
+| 9    |                | 40,41           |                        |        |      |
+| 10   |                | 42,43,44        |                        |        |      |
+| 11   |                | 45,47,48        |                        |        |      |
+|      |                |                 |                        |        |      |
 
+## 📔기록
 
-##  📔기록
 ### 2024.02.01
+
 - 참가자 : 이나령, 이종욱, 정미수, 최재선
 - 질문 내용 : [질문 바로가기](/questions/week1.md)
-<img src="./images/2024_02_01.png" width="100%" alt="이미지" />
+  <img src="./images/2024_02_01.png" width="100%" alt="이미지" />
 
+### 2024.02.15
 
-### 2024.02.01
 - 참가자 : 이나령, 정미수, 최재선
 - 질문 내용 : X
-<img src="./images/2024_02_15.png" width="100%" alt="이미지" />
+  <img src="./images/2024_02_15.png" width="100%" alt="이미지" />
+
+### 2024.02.22
+
+- 참가자 : 이나령, 최재선, 이종욱
+- 질문 내용 : X
+  <img src="./images/2024_02_22.png" width="100%" alt="이미지" />
